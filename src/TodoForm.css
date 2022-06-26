@@ -1,0 +1,53 @@
+
+.todo-input{
+    margin: 0;
+    width: 500px;
+    height: 50px;
+    border: 1px ridge rgb(228, 228, 228);
+}
+
+.todo-form_button{
+    width: 80px;
+    height: 55px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo-item{
+    border: 1px ridge rgb(228, 228, 228);
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    font-size: 22px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.todo-item_button{
+    position: absolute;
+    right: 20px;
+    border: 0;
+    font-size: 16px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.todo-footer{
+    height: 30px;
+    position: relative;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px ridge rgb(228, 228, 228);
+    background-color: white;
+}
+
+.todo-footer_button{
+    position: absolute;
+    right: 10px;
+    border: 0;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
